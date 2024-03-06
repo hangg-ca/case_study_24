@@ -7,7 +7,7 @@ import os
 from PyPDF2 import PdfReader
 
 # read pdf
-pdf_path  = '../OMERS-2023-Annual-Report.pdf'
+pdf_path  = '../2023-Annual-Report.pdf'
 reader = PdfReader(pdf_path)
 full_text = ''
 for page in reader.pages:
